@@ -1,6 +1,6 @@
 import React from 'react'
-import SignCard from ''
-import ResetForm from './ResetForm'
+// import SignCard from ''
+// import ResetForm from './ResetForm'
 
 const Reset = () => {
   return (

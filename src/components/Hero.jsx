@@ -1,7 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router'
 import bgCount from "../assets/study.jpeg"
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
 
@@ -70,7 +73,12 @@ const Hero = () => {
 
       <div className="flex flex-col justify-center items-center">
         <table></table>
-        <button className="w-[7.5rem] h-[2.5rem] bg-[#000] text-[#fff] border border-[#fff] rounded-[1.25rem] cursor-pointer">Go to portal</button>
+        <button
+          className="w-[7.5rem] h-[2.5rem] bg-[#000] text-[#fff] border border-[#fff] rounded-[1.25rem] cursor-pointer"
+          onClick={() => navigate('/login')}
+        >
+          Go to portal
+        </button>
       </div>
     </div>
   )
