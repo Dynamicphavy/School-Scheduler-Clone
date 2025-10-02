@@ -1,0 +1,17 @@
+Pages:
+    ✔ Create a student homepage
+    ✔ Create a login page 
+    ✔ Create a signup page 
+    ✔ Create the reset page 
+
+Cards:
+    ✔ Create a LogCard 
+    ✔ Create a SignCard 
+    ✔ Create a LogForm 
+    ✔ Create a SignForm 
+    ✔ Create a ResetForm 
+
+Components:
+    ✔ Create a NavBar 
+    ✔ Create a Footer 
+    [] Create a Dropdown menu with names

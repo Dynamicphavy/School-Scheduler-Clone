@@ -21,6 +21,9 @@ function App() {
           <Route path="/reset" element={<Reset />} />
         </Routes>
         <Footer />
+
+        {/* TODO: Navigation through pages with routing */}
+        {/* TODO: Login, Signup, and Reset page in white screen */}
       </div>
     </>
   )
