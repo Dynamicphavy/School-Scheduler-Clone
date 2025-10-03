@@ -3,10 +3,11 @@ import React from 'react'
 const ResetCard = () => {
   return (
     <div>
-      <div className="w-[37.5rem] h-[25rem] flex flex-col justify-center items-center gap-[1.25rem] text-[#fff] border-[#fff] border-[0.063rem]">
+      <div className="w-[37.5rem] h-[25rem] flex flex-col justify-center items-center gap-[1.25rem] text-[#fff] border-[#fff] border-[0.063rem] rounded-[1.25rem]">
         <h1>Sign In</h1>
 
         <div>
+          <i className="fa-solid fa-envelope absolute mt-[0.938rem] ml-[0.75rem]"></i>
           <input type="text" 
             placeholder="Email" 
             className="w-[25rem] h-[3.125rem] bg-[#000] border-[#fff] border-[0.063rem] rounded-[0.75rem] text-[#fff] pt-[0.938rem] pr-[1.25rem] pb-[1.25rem] pl-[2.188rem]" 
