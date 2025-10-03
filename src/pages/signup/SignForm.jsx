@@ -3,7 +3,7 @@ import React from 'react'
 const SignForm = () => {
   return (
     <div>
-      <div className="w-[37.5rem] h-[25rem] flex flex-col justify-center items-center gap-[1.25rem] text-[#fff] border-[#fff] border-[0.063rem]">
+      <div className="w-[37.5rem] h-[25rem] flex flex-col justify-center items-center gap-[1.25rem] text-[#fff] border-[#fff] border-[0.063rem] rounded-[1.25rem]">
         <h1>Sign Up</h1>
 
         <div>
@@ -27,7 +27,7 @@ const SignForm = () => {
           />
         </div>
         <button className="w-[7.5rem] h-[2.5rem] bg-[#000] text-[#fff] border-[#fff] border-[0.063rem] rounded-[1.25rem] cursor-pointer">Login</button>
-        <p>Forgotten Password? <Link>Click Here</Link> to reset</p>
+        <p>Forgotten Password? Click Here to reset</p>
       </div> 
     </div>
   )
